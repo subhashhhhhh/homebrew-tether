@@ -7,7 +7,7 @@ cask "tether" do
 
   url "https://github.com/subhashhhhhh/Tether/releases/download/v#{version}/Tether-#{version}-#{arch}.dmg"
   name "Tether"
-  desc "Native macOS client for KDE Connect"
+  desc "Phone notifications, texts, files and clipboard from Android via KDE Connect"
   homepage "https://github.com/subhashhhhhh/Tether"
 
   livecheck do

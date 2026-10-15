@@ -1,9 +1,9 @@
 cask "tether" do
   arch arm: "AppleSilicon", intel: "Intel"
 
-  version "1.7"
-  sha256 arm:   "c8b138599a70885babde3bf11d5342f05adbd96c6be1442dba1d0932a76fa141",
-         intel: "ce88a44026a2a19d15d947196b6236fe80eb2a3108ba6414fd0778a54ac604de"
+  version "1.8"
+  sha256 arm:   "edc19e488c2abaa593730d0eec5577fc0df8cdf9666334717c0fb61198c0b6ec",
+         intel: "a17e044fd539f7777c159d71626a2648441c210d8904dd8cc839a74561313254"
 
   url "https://github.com/subhashhhhhh/Tether/releases/download/v#{version}/Tether-#{version}-#{arch}.dmg"
   name "Tether"
